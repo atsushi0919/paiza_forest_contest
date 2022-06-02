@@ -1,1 +1,1 @@
-puts gets.chomp.downcase
+puts gets.downcase

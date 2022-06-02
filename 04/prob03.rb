@@ -1,10 +1,10 @@
 m = gets.to_i
 
-res = if m == 3 || m == 4 || m == 5
+res = if [3, 4, 5].include?(m)
     "spring"
-  elsif m == 6 || m == 7 || m == 8
+  elsif [6, 7, 8].include?(m)
     "summer"
-  elsif m == 9 || m == 10 || m == 11
+  elsif [9, 10, 11].include?(m)
     "autumn"
   else
     "winter"
