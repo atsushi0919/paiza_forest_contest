@@ -3,6 +3,6 @@ n = gets.to_i
 res = 0
 [500, 100, 50, 10, 5, 1].each do |coin|
   res += n / coin
-  n = n % coin
+  n %= coin
 end
-p res
+puts res
